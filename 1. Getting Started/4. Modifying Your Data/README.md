@@ -25,7 +25,7 @@ PUT /customer/external/1?pretty
 ```json
 PUT /customer/external/2?pretty
 {
-  "name": "Jane Doe"
+  "name": "성준영"
 }
 ```
 위의 커맨드는 ID 2 의 새로운 도큐먼트를 인덱싱 할 것입니다.
@@ -36,7 +36,7 @@ PUT /customer/external/2?pretty
 ```json
 POST /customer/external?pretty
 {
-  "name": "Jane Doe"
+  "name": "성준영"
 }
 ```
 이 경우 PUT 대신 POST 메소드를 쓴다는 점에 유의하세요.
