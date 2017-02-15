@@ -16,13 +16,13 @@
 
 
 ## 목차
-- [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started)
-    - [Basic Concepts](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Basic%20Concepts)
-    - [Installation](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Installation)
-    - [Exploring Your Cluster](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Exploring%20Your%20Cluster)
-        - [Cluster Health](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Exploring%20Your%20Cluster/Cluster%20Health)
-        - [List All Indices](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Exploring%20Your%20Cluster/List%20All%20Indices)
-        - Create an index
+- [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started)
+    - [Basic Concepts](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/1.%20Basic%20Concepts)
+    - [Installation](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/2.%20Installation)
+    - [Exploring Your Cluster](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster)
+        - [Cluster Health](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/1.%20Cluster%20Health)
+        - [List All Indices](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/2.%20List%20All%20Indices)
+        - [Create an index](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/3.%20Create%20an%20Index)
         - Index and Query a Document
         - Delete an Index
     - Modifying Your Data

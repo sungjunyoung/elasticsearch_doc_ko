@@ -1,4 +1,4 @@
-> [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started) > Exploring Your Cluster  
+> [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started) > Exploring Your Cluster  
 > 원본 : https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_cluster.html
 
 ### Exploring Your Cluster
