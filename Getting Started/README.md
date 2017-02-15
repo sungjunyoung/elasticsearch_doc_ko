@@ -1,5 +1,5 @@
 > Getting Started  
-> ORIGINAL : https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+> 원본 : https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
 
 ## Getting Started
 
