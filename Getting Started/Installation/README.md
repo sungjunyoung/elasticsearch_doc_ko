@@ -1,3 +1,5 @@
+> [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started) > Installation
+
 ### Installation
 
 Elasticsearch 는 Java 8 이상을 요구합니다. 특히, 현재 이 DOC에서, Oracle JDK version 1.8.0_73 을 사용하기를 추천합니다. Java 설치는 여기서 자세히 다루지 않습니다. Oracle 이 추천하는 설치 문서는 [Oracle's website](http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html) 에서 조회할 수 있습니다. Elasticsearch를 설치하기 전에, Java 버전을 다음 명령어로 체크해주십시오 (필요하다면 설치/업그레이드 해 주십시오.)
