@@ -16,7 +16,7 @@
 
 ## 목차
 - [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started)
-    - [Basic Concepts](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Basic%20Concept)
+    - [Basic Concepts](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Basic%20Concepts)
     - [Installation](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Installation)
     - [Exploring Your Cluster](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Exploring%20Your%20Cluster)
         - [Cluster Health](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Exploring%20Your%20Cluster/Cluster%20Health)
