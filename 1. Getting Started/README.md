@@ -12,4 +12,4 @@ Elasticsearch 는 확장성있는 full-text 검색과 분석 엔진입니다. El
 - “특정 전자 장치를 구입하는 데 관심이 있으며 다음 달의 모든 공급 업체에서 가제트 가격이 $ X 이하로 떨어지면 알림을 받고 싶습니다" 와 같은 규칙을 지정할 수있는 가격 알림 플랫폼을 운영한다면, 이 경우 공급 업체 가격을 긁어내어 Elasticsearch로 밀어 넣고 역방향 검색 (Percolator) 기능을 사용하여 가격 변동을 고객 쿼리와 대조하고 결과가 일치하면 고객에게 알림을 푸시 할 수 있습니다.
 - analytics 혹은 business-intelligence에서 요구 사항이 있으며 많은 데이터에 대해 신속하게 조사, 분석, 시각화를하고 싶을 때, (수백만 또는 수십억 개의 레코드에서), Elasticsearch 에 당신의 데이터를 저장하고, Kibana(Elasticsearch/Logstash/Kibana Stack)  를 통해 시각화 할 수 있습니다. 게다가, 데이터에 대해 복잡한 쿼리를 위해 Elasticsearch aggregations functionality 를 사용할 수도 있습니다.
 
-나머지 튜토리얼을 위해, Elasticsearch 를 띄우고 실행시키고, 당신의 데이터에 대해 인덱싱, 검색, 수정의 기본적인 명령을 수행하는 가이드를 제공할 것입니다. 튜토리얼의 끝에는, 당신은 Elasticsearch에 대한 좋은 아이디어를 가질 수 있으며, Elasticsearch를 어떻게 사용할 지에 대한 영감을 얻을 수 있습니다.
+나머지 튜토리얼을 위해 Elasticsearch 를 띄우고 실행시키고, 당신의 데이터에 대해 인덱싱, 검색, 수정의 기본적인 명령을 수행하는 가이드를 제공할 것입니다. 튜토리얼의 끝에는, 당신은 Elasticsearch에 대한 좋은 아이디어를 가질 수 있으며, Elasticsearch를 어떻게 사용할 지에 대한 영감을 얻을 수 있습니다.
