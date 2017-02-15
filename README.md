@@ -21,7 +21,7 @@
     - [Installation](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Installation)
     - [Exploring Your Cluster](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Exploring%20Your%20Cluster)
         - [Cluster Health](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Exploring%20Your%20Cluster/Cluster%20Health)
-        - List All Indices
+        - [List All Indices](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started/Exploring%20Your%20Cluster/List%20All%20Indices)
         - Create an index
         - Index and Query a Document
         - Delete an Index
