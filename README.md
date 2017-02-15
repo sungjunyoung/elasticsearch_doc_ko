@@ -23,7 +23,7 @@
         - [Cluster Health](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/1.%20Cluster%20Health)
         - [List All Indices](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/2.%20List%20All%20Indices)
         - [Create an index](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/3.%20Create%20an%20Index)
-        - Index and Query a Document
+        - [Index and Query a Document](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/4.%20Index%20and%20Query%20a%20Document)
         - Delete an Index
     - Modifying Your Data
         - Updating Documents
