@@ -34,4 +34,4 @@ ip        heap.percent ram.percent cpu load_1m load_5m load_15m node.role master
 127.0.0.1           10           5   5    4.46                        mdi      *      PB2SGZY
 ```
 
-여기서 우리는 "PB2SGZY" 라는 단일 노드를 볼수 있습니다. 우리의 클러스터 내에 하나의 노드가 있다는 뜻입니다.
+여기서 우리는 "PB2SGZY" 라는 단일 노드를 볼수 있습니다. 우리의 클러스터 내에 하나의 노드가 존재한다는 뜻입니다.
