@@ -27,8 +27,8 @@
         - [Delete an Index](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/5.%20Delete%20an%20Index)
     - [Modifying Your Data](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data)
         - [Updating Documents](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data/1.%20Updating%20Documents)
-        - Deleting Documents
-        - Batch Processing
+        - [Deleting Documents](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data/2.%20Deleting%20Documents)
+        - [Batch Processing](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data/3.%20Batch%20Processing)
     - Exploring Your Data
         - The Search API
         - Introducing the Query Languate
