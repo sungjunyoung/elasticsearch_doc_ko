@@ -29,7 +29,7 @@
         - [Updating Documents](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data/1.%20Updating%20Documents)
         - [Deleting Documents](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data/2.%20Deleting%20Documents)
         - [Batch Processing](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data/3.%20Batch%20Processing)
-    - Exploring Your Data
+    - [Exploring Your Data](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data)
         - The Search API
         - Introducing the Query Languate
         - Executing Searches

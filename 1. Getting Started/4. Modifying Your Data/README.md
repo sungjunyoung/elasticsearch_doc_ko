@@ -1,4 +1,4 @@
-> [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started) > Modifying Your Data
+> [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started) > Modifying Your Data  
 > 원본 : https://www.elastic.co/guide/en/elasticsearch/reference/current/_modifying_your_data.html
 
 ### Modifying Your Data
