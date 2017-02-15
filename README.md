@@ -1,4 +1,4 @@
-# Elasticsearch KOREAN Docs
+# Elasticsearch 한글 Docs
 
 > [Elasticsearch Docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html) 번역  
 > 미천한(?) 영어실력과 번역기의 도움으로 작성중인 Elasticsearch 공식 도큐멘테이션의 번역글입니다.
@@ -26,7 +26,7 @@
         - [Index and Query a Document](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/4.%20Index%20and%20Query%20a%20Document)
         - [Delete an Index](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/3.%20Exploring%20Your%20Cluster/5.%20Delete%20an%20Index)
     - [Modifying Your Data](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data)
-        - Updating Documents
+        - [Updating Documents](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Updating%20Documents)
         - Deleting Documents
         - Batch Processing
     - Exploring Your Data
