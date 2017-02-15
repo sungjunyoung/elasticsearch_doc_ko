@@ -1,4 +1,5 @@
-> [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started) > Basic Concepts
+> [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/Getting%20Started) > Basic Concepts  
+> ORIGINAL : https://www.elastic.co/guide/en/elasticsearch/reference/current/_basic_concepts.html
 
 ### Basic Concept
 

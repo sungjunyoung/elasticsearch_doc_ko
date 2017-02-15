@@ -11,7 +11,8 @@
 - Index, Document 등은 인덱스, 도큐먼트 로 번역합니다.  
 - 폴더 구조는 [Elasticsearch Docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)의 목차 구성과 같습니다.
 - 항상 상단에는 인용문 (>) 으로 현재 문서의 위치를 링크와 함께 나타냅니다.
-- 페이지의 제목은 h3 로 문서의 위치 밑에 작성합니다.
+- 다음 문장에서 ORIGINAL : 으로 원문의 위치를 나타냅니다.
+- 페이지의 제목은 항상 h3 로 작성합니다.
 
 
 ## 목차
