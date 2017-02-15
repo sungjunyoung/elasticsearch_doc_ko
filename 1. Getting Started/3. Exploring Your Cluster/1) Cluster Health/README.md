@@ -9,11 +9,11 @@
 클러스터 health 를 체크하기 위해서는 우리는 [_cat API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat.html)를 사용합니다. 아래의 커맨드를 [Kibana 콘솔](https://www.elastic.co/guide/en/kibana/5.2/console-kibana.html)에서 "VIEW IN CONSOLE" 을 클릭함으로서 실행하거나, curl 을 복사해 터미널에 붙여넣음으로서 실행할 수 있습니다.
 > 해당 문서에서는 못합니다 ㅠ
 
-```bash
+```
 GET /_cat/health?v
 ```
 Response 는 다음과 같습니다
-```bash
+```
 epoch      timestamp cluster       status node.total node.data shards pri relo init unassign pending_tasks max_task_wait_time active_shards_percent
 1475247709 17:01:49  elasticsearch green           1         1      0   0    0    0        0             0                  -                100.0%
 
@@ -25,11 +25,11 @@ epoch      timestamp cluster       status node.total node.data shards pri relo i
 위의 response 에서, 우리는 1개의 노드를 볼 수 있고, 아직 데이터가 없기 때문에 0개의 샤드를 가지고 있다는 것을 알 수 있습니다. 기본 클러스터 이름 (elasticsearch)을 사용하고, Elasticsearch가 기본적으로 unicast(?) 네트워크 검색을 사용하여 같은 컴퓨터에서 다른 노드를 찾았으므로 실수로 컴퓨터에서 둘 이상의 노드를 시작해 두개의 노드 모두 하나의 클러스터에 묶여 있게 될 가능성이 있습니다. 이 시나리오에서는, 당신은 1개 위의 response 에서 한 개 이상의 노드를 볼 수 있습니다.
 
 다음의 명령에서, 클러스터 내의 노드 리스트를 얻을 수 있습니다.
-```bash
+```
 GET /_cat/nodes?v
 ```
 Response 는 다음과 같습니다.
-```bash
+```
 ip        heap.percent ram.percent cpu load_1m load_5m load_15m node.role master name
 127.0.0.1           10           5   5    4.46                        mdi      *      PB2SGZY
 ```

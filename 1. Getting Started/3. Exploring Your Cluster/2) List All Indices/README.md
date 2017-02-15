@@ -5,11 +5,11 @@
 ### List All Indices
 
 이제 우리 인덱스들을 살펴보겠습니다.
-```bash
+```
 GET /_cat/indices?v
 ```
 Response 는 다음과 같습니다.
-```bash
+```
 health status index uuid pri rep docs.count docs.deleted store.size pri.store.size
 ```
 클러스터 내에 아직 인덱스가 존재하지 않는다는 것을 의미합니다.
