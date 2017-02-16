@@ -13,7 +13,7 @@
 - 항상 상단에는 인용문 (>) 으로 현재 문서의 위치를 링크와 함께 나타냅니다.
 - 다음 인용문에서 원본 : 으로 원문의 위치를 나타냅니다.
 - 페이지의 제목은 항상 h3 로 작성하여 시작합니다.
-
+- 문서의 내용 외에 번역자가 추가로 넣고 싶은 사항은 인용문에 \*\*역자주\*\* 로 표시한 후 작성해주세요.
 
 ## 목차
 - [Getting Started](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started)
@@ -30,8 +30,8 @@
         - [Deleting Documents](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data/2.%20Deleting%20Documents)
         - [Batch Processing](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/4.%20Modifying%20Your%20Data/3.%20Batch%20Processing)
     - [Exploring Your Data](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data)
-        - The Search API
-        - Introducing the Query Languate
+        - [The Search API](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/1.%20The%20Search%20API)
+        - [Introducing the Query Language](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/2.%20Introducing%20the%20Query%20Language)
         - Executing Searches
         - Executing Filters
         - Executing Aggraegations
