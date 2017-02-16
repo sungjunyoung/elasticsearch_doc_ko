@@ -43,5 +43,3 @@ GET /bank/_search
   "sort": { "balance": { "order": "desc" } }
 }
 ```
-
-TEST
