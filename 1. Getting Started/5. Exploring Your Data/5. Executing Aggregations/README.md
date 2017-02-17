@@ -80,3 +80,97 @@ SELECT state, COUNT(*) FROM bank GROUP BY state ORDER BY COUNT(*) DESC
 우리는 ID (Idaho)주에 27명의 고객, TX(Texas)주에 27명의 고객이 있다는 것 등을 알수 있습니다.
 
 > aggregation 에 대한 결과만 보고 싶었기 때문에 size=0 으로 지정했습니다.
+
+다음의 예제는 state 별 평균 잔액을 계산합니다 (내림차순으로 된 상위 10 개 state).
+```json
+GET /bank/_search
+{
+  "size": 0,
+  "aggs": {
+    "group_by_state": {
+      "terms": {
+        "field": "state.keyword"
+      },
+      "aggs": {
+        "average_balance": {
+          "avg": {
+            "field": "balance"
+          }
+        }
+      }
+    }
+  }
+}
+```
+group_by_state 안의 average_balance 를 포함시킨 것에 주목하세요. 이것은 모든 aggregation 의 공통된 패턴입니다. 우리는 원하는 데로 aggregation 에 aggregation 구문을 포함시킬 수 있습니다.
+
+아래의 aggregation을 작성함으로서, 평균 잔액을 내림차순으로 정렬해 봅시다.
+```json
+GET /bank/_search
+{
+  "size": 0,
+  "aggs": {
+    "group_by_state": {
+      "terms": {
+        "field": "state.keyword",
+        "order": {
+          "average_balance": "desc"
+        }
+      },
+      "aggs": {
+        "average_balance": {
+          "avg": {
+            "field": "balance"
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+다음의 예제는 20~29세, 30~39세, 40~49세 같은 방식과 함께 성(gender)으로 구분짓는 방법을 보여줍니다. 그리고 마지막에는 평균 잔액을 나이 범위별, 성별로 보여줍니다.
+
+```json
+GET /bank/_search
+{
+  "size": 0,
+  "aggs": {
+    "group_by_age": {
+      "range": {
+        "field": "age",
+        "ranges": [
+          {
+            "from": 20,
+            "to": 30
+          },
+          {
+            "from": 30,
+            "to": 40
+          },
+          {
+            "from": 40,
+            "to": 50
+          }
+        ]
+      },
+      "aggs": {
+        "group_by_gender": {
+          "terms": {
+            "field": "gender.keyword"
+          },
+          "aggs": {
+            "average_balance": {
+              "avg": {
+                "field": "balance"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+여기서 자세히 설명하지 않는 다른 많은 aggregation 기능이 있습니다. 더 많은 예제는 [aggregations reference guide](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html) 를 참고하세요.
