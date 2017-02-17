@@ -34,7 +34,7 @@
         - [Introducing the Query Language](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/2.%20Introducing%20the%20Query%20Language)
         - [Executing Searches](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/3.%20Executing%20Searches)
         - [Executing Filters](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/4.%20Executing%20Filters)
-        - Executing Aggraegations
+        - [Executing Aggregations](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/5.%20Executing%Aggregations)
     - Conclusion
 - Setup Elasticsearch
 - Breaking changes
