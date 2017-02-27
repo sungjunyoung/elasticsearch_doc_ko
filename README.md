@@ -38,7 +38,7 @@
     - [Conclusion](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/6.%20Conclusion)
 - [Setup Elasticsearch](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/2.%20Setup%20Elasticsearch)
     - [Installing Elasticsearch](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/2.%20Setup%20Elasticsearch/1.%20Installing%20Elasticsearch)
-        - [Installing Elasticsearch with Docker](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/2.%20Setup%20Elasticsearch/1.%20Installing%20Elasticsearch/5.%20Installing%20E20Elasticsearch%20with%20Docker)
+        - [Installing Elasticsearch with Docker](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/2.%20Setup%20Elasticsearch/1.%20Installing%20Elasticsearch/5.%20Install%20Elasticsearch%20with%20Docker)
 - Breaking changes
 - API Conventions
 - Document APIs
