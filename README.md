@@ -35,8 +35,10 @@
         - [Executing Searches](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/3.%20Executing%20Searches)
         - [Executing Filters](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/4.%20Executing%20Filters)
         - [Executing Aggregations](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/5.%20Exploring%20Your%20Data/5.%20Executing%20Aggregations)
-    - [Conclusion](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/6.%20Conclusion) 
-- Setup Elasticsearch
+    - [Conclusion](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/1.%20Getting%20Started/6.%20Conclusion)
+- [Setup Elasticsearch](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/2.%20Setup%20Elasticsearch)
+    - [Installing Elasticsearch](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/2.%20Setup%20Elasticsearch/1.%20Installing%20Elasticsearch)
+        - [Installing Elasticsearch with Docker](https://github.com/sungjunyoung/elasticsearch_doc_ko/tree/master/2.%20Setup%20Elasticsearch/1.%20Installing%20Elasticsearch/5.%20Installing%20E20Elasticsearch%20with%20Docker)
 - Breaking changes
 - API Conventions
 - Document APIs

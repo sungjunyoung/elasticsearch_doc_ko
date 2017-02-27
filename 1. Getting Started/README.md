@@ -1,7 +1,7 @@
 > Getting Started  
 > 원본 : https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
 
-## Getting Started
+### Getting Started
 
 Elasticsearch 는 확장성있는 full-text 검색과 분석 엔진입니다. Elasticsearch 는 당신에게 큰볼륨의 데이터를 빠르게, 그리고 실시간으로 저장하고, 검색하고, 분석할수 있게 합니다. 일반적으로 복잡한 검색 기능과 요구 사항이있는 응용 프로그램을 구동하는 엔진 혹은 기술로 사용됩니다.
 
