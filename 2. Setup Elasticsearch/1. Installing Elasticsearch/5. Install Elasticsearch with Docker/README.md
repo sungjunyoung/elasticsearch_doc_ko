@@ -56,7 +56,7 @@ elasticsearch1 노드는 localhost:9200에서 수신 대기하고 elasticsearch2
 
 `docker-compose.yml`:
 
-```yaml
+```
 version: '2'
 services:
   elasticsearch1:
@@ -129,3 +129,6 @@ Enter host password for user 'elastic':
 Elasticsearch 의 설정은 `/usr/share/elasticsearch/config/`에서 불러와집니다. 이 파일을 설정하는 방법은, [Configuring Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html) 와 [Setting JVM options](https://www.elastic.co/guide/en/elasticsearch/reference/current/setting-system-settings.html#jvm-options)에서 볼 수 있습니다.
 
 이미지는 맞춤 검색 파일 (예 : elasticsearch.yml)을 제공하는 기존 방식을 사용하여 탄성 검색 설정을 구성하는 여러 가지 방법을 제공하지만 환경변수를 사용하여 옵션을 설정할 수도 있습니다.
+
+##### A. Present the parameters via Docker environment variables
+예를들어, `docker run`을 할떄 클러스터 이름을 지정하기 위해서는 `-e "cluster.name=mynewclustername"`과 같이 지정할 수 있습니다. 쌍따음표는 필수조건입니다.
